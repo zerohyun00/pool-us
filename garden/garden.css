@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.sbAggro_font {
+    font-family: 'SBAggroB', sans-serif;
+}
+.e4manro {
+    font-family: 'GongGothicMedium', sans-serif;
+}
+.Anton_font {
+    font-family: 'Anton', sans-serif;
+}
+body {
+    background-color: #0f0f0f;
+}
+.display-container {
+    box-shadow: 0 0 15px 0 hsla(0. 0%, 100%, .75);
+    max-width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    background-color: #fef5e8;
+}
+body {
+    background-color: #0f0f0f;
+    color: #287e3a;
+}
+.gardentitle {
+    -webkit-text-stroke: 1px #287e3a;
+    color: transparent;
+    font-size:30px;
+    font-weight: 900;
+    margin-bottom: -30px;
+}
+.poolustitle {
+    color:#287e3a;
+    font-size: 100px;
+}
+.boothlocation {
+    background-color: hsla(0, 0%, 100%, .6);
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 10px;
+    position: relative;
+    width: 250px;
+}
+.boothImgSub {
+    font-size: 14px;
+    font-weight: 700;
+}
+form label {
+    font-size: 15px;
+}
+form p {
+    border: 2px solid #287e3a
+}
+form p input{
+    background: none;
+    border: none;
+}
+.bi-search::before{
+    margin-top: 5px;
+}

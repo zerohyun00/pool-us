@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-.anton-font {
-    font-family: 'Anton', sans-serif;
-}
 @font-face {
     font-family: 'GongGothicMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-.isamanroo-font {
-    font-family: 'GongGothicMedium', sans-serif;
-}
 @font-face {
     font-family: 'SBAggroB';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+.isamanroo-font {
+   font-family: 'GongGothicMedium', sans-serif;
+}
+.anton-font {
+   font-family: 'Anton', sans-serif;
 }
 .sbaggro-font {
    font-family: 'SBAggroB', sans-serif;
