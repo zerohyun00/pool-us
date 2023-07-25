@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="ko">
   <head>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Garden Island</title>
@@ -17,13 +18,13 @@
             </div>
             <div>
                 <div class="boothlocation"><i class="bi bi-geo-alt-fill"></i>성결관 앞 가든 아일랜드</div>
-                <p class="boothImgSub"><i class="bi bi-chevron-double-down"></i>부스 지도를 클릭하시면 크게 볼 수 있어요<i class="bi bi-chevron-double-down"></i></p>
+                <p class="boothImgSub"><i class="bi bi-chevron-double-down"></i> 부스 지도를 클릭하시면 크게 볼 수 있어요 <i class="bi bi-chevron-double-down"></i></p>
             </div>
             <div>
                 <img style="width:300px;" src="./gardenImg/Gbooth.png" alt="전체부스이미지">
             </div>
             <div>
-                <form action="my-4">
+                <form class="my-4">
                     <label for="boothSearch" class="mb-2">원하는 부스 또는 음식을 검색해보세요!</label>
                     <p class="d-flex justify-content-center">
                         <i class="bi bi-search"></i><input type="text" id="boothSearch">
@@ -31,7 +32,21 @@
                 </form>
             </div>
         </section>
+        <section class="boothSection text-center">
+            <!--
+            <button>
+                <div class="booth d-flex">
+                    <div class="boothimg"><img src="./gardenImg/boothimg.png" alt ="부스이미지"></div>
+                <div class="boothinfo d-flex flex-column justify-content=center text-start">
+                    <p class="boothtitle mb-1"></p>
+                    <p class="boothsub mb-0"></p>
+                </div>
+                </div>
+                </button>
+                -->
+        </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./Garden.js"></script>
   </body>
 </html>
